@@ -20,9 +20,9 @@ const { Step } = Steps;
 
 ReactDOM.render(
   <Steps current={1}>
-    <Step title="Finished" description="This is a description." />
-    <Step title="In Progress" subTitle="Left 00:00:08" description="This is a description." />
-    <Step title="Waiting" description="This is a description." />
+    <Step title="完成申请" description="This is a description." />
+    <Step title="研究计划书写作" subTitle="Left 00:00:08" description="This is a description." />
+    <Step title="先行研究阅读" description="This is a description." />
   </Steps>,
   mountNode,
 );
